@@ -1,0 +1,259 @@
+
+
+@media (max-width: 1650px) {
+	aside {--width-sidebar-icon: 30px;}
+	footer {padding: 5px 1% 5px;}
+	.aside-logo img {width: 160px;}
+	.aside-menu-btn {line-height: 1.2em;}
+}
+@media (max-width: 1370px) {
+	.aside-logo img {width: 140px;}
+	.aside-menu-btn {font-size: 14px;}
+}
+@media (max-width: 1280px) {
+	:root {--width-sidebar-icon: 30px;}
+	footer {padding: 5px 1% 5px;}
+	.footer__item-img {
+    width: 30px;
+    height: 30px;}
+	.aside-logo img {width: 125px;}
+}
+
+@media (max-width: 1025px) {
+	aside {--width-sidebar-icon: 25px;}
+	aside {
+		width: 4%;}
+	aside.active-sidebar {
+    left: 0%;
+    width: 18%;}
+}
+
+@media (max-width: 900px) {
+	.drop-menu-wrapper{z-index: 5;}
+	aside {
+		display: none;
+	}
+	footer,
+	header,
+	.app-content,
+	main {
+		width: 100%;
+	}
+	.drop-menu,
+	.drop-menu-wrapper {
+		display: flex;
+	}
+	.mw80 {
+		max-width: 100%;
+	}
+
+
+	.drop-menu-icon .svg-icon{margin-bottom: 0;}
+	.drop-menu-icon {
+		--width-sidebar-icon: 20px;
+	}
+}
+
+@media (max-width: 700px) {
+	.back {
+		width: 26px;
+		height: 26px;
+	}
+	.page{padding-bottom: 30px;}
+	.video_title {font-size: 32px;}
+	.title3_ {text-align: center;}
+	.media-window{padding-left: 15px;padding-right: 15px;}
+	.media-window {padding-bottom: 10px;}
+	.audio-row {
+    padding-left: 5px;
+    padding-right: 5px;}
+}
+
+@media (max-width: 600px) {
+	.img-audio img {
+		max-width: 240px;
+		padding-right: 5px;
+		padding-left: 5px;}
+	.img-audio{margin-bottom: 15px;}
+	.menu {width: 90%;}
+	.atom.a1 {
+		left: -20px;
+    top: 15px;
+    width: 75px;}
+	.atom.a2 {
+		right: -11px;
+		bottom: 30px;
+		width: 50px;}
+	.right-button {font-size: 20px;}
+	.inner-left-button {
+		width: 34px;
+	height: 34px;
+	font-size: 24px;
+	box-shadow: 1px 1px 2px 1px #000000c7 inset;}
+	.title-menu {font-size: 40px;}
+	.menu-text-1 {font-size: 19px;}
+	.video_title {font-size: 31px;}
+	.title3_ {font-size: 29px;}
+	.img-audio{min-width: 100%;}
+}
+
+@media (max-width: 500px) {
+	.drop-menu-img img {width: 160px;}
+	.drop-menu-btn {padding: 6px;}
+	
+	.text-block {font-size: 17px;}
+	.img-audio img {max-width: 160px;}
+	.audio-row {margin-top: 7px;}
+	.title3_.dop-mb{margin-bottom: 10px;}
+	.rec-block {margin-bottom: 7px;}
+	.atom.a1 {
+    left: -8px;
+    top: 15px;
+    width: 54px;}
+	.atom.a2 {
+		right: -4px;
+		bottom: -17px;
+		width: 35px;}
+	.menu-btn-block {
+		padding-left: 5px;
+		padding-right: 5px;}
+	.img-block {max-width: 10%;}
+	.video_title {font-size: 26px;}
+	.media-window {
+		border-radius: 8px;
+    padding-left: 5px;
+    padding-right: 5px;}
+	.title3_ {font-size: 22px;margin-bottom: 2%;}
+	.btn-block {max-width: 45%;}
+	.menu-btn.red-gradient .right-button {font-size: 18px;}
+	.right-button {font-size: 19px;}
+	.bottom-button-block, .menu-btn {width: 100%;}
+	.menu-text-1 {font-size: 18px;}
+	.menu {width: 100%;padding: 10px 5px;}
+	.img-block-a {max-width: 85%;}
+	.title-menu {line-height: 1em;}
+	.drop-menu-icon {
+    height: 27px;
+    margin-bottom: 6px;}
+	.play-button {
+		height: 45px;
+		width: 45px;}
+	.play-button i {font-size: 40px;}
+	.row.dop-10{margin-left: auto;margin-right: auto;}
+	.rec-img {
+    max-width: 30px;
+    min-width: 30px;}
+	.rec-img img {width: 40px;}
+	.rec-text-block {font-size: 18px;}
+	.video-wrapper {margin-top: 11px;}
+	.dop-btn-procedure{max-width: 80%;}
+	.new-btn {font-size: 19px;}
+}
+
+@media (max-width: 384px) {
+	.inner-page.audio {
+		padding-bottom: 0%;
+	}
+	.fullscreen i {
+		font-size: 16px;
+	}
+	.fullscreen {
+		width: 22px;
+		height: 22px;
+	}
+	.play-button {
+		height: 40px;
+		width: 40px;
+	}
+	.play-button i {
+		color: #000;
+		font-size: 35px;
+	}
+	.video-bottom {
+		height: 49px;
+	}
+	.inner-page.description,
+	.inner-page.video,
+	.inner-page.book,
+	.inner-page.audio {
+		margin-top: 10px;
+	}
+
+
+
+	.menu-text-1 {font-size: 17px;}
+	.title-menu {font-size: 36px;}
+	.right-button {font-size: 18px;}
+	.drop-switch {
+    max-width: 40px;
+    min-width: 40px;
+    height: 40px;}
+	.drop-menu-span-text {padding-left: 12px;}
+	.drop-menu-btn {font-size: 14px;}
+	.drop-menu-icon {
+    height: 19px;
+    margin-bottom: 4px;}
+	.drop-menu-wrapper {height: 40px;}
+	.drop-menu.drop {top: 40px;}
+	.switch-btn {font-size: 18px;}
+	.drop-menu-img img {width: 130px;}
+	.dop-btn-procedure{font-size: 18px;}
+}
+
+@media (max-width: 330px) {
+	.new-btn {
+    padding: 7px;
+    font-size: 16px;}
+	.icon-menu {
+    width: 22px;
+    height: 22px;}
+	.drop-menu-img img {
+		width: 130px;
+	}
+	.switch-btn {
+		font-size: 19px;
+	}
+	.drop-switch {
+		max-width: 40px;
+		min-width: 40px;
+		height: 40px;
+	}
+	.drop-menu.drop {
+		top: 40px;
+	}
+	.drop-menu-btn {
+		font-size: 13px;
+	}
+	
+	
+	.menu-text-1 {font-size: 15px;}
+	.title-menu {font-size: 32px;}
+	.atom.a1 {
+		left: -4px;
+    top: 23px;
+    width: 45px;}
+	.btn-block-a {font-size: 11px;}
+	.inner-left-button {
+		width: 29px;
+		height: 29px;
+		font-size: 20px;}
+	.right-button {font-size: 16px;}
+	.left-button {max-width: 28px;}
+	.menu-btn.red-gradient .right-button {font-size: 16px;}
+	.menu {padding: 10px 4px;}
+	.video_title {font-size: 21px;}
+	.title3_ {font-size: 18px;}
+	.rec-text-block {font-size: 14px;}
+	.dop-btn-procedure {font-size: 16px;}
+	.text-block {font-size: 15px;}
+	.back {
+    width: 20px;
+    height: 20px;}
+	.img-audio img {max-width: 118px;}
+}
+
+/* Послание с небес
+медитация на бессмертие
+благославляю себя
+
+marzoeva.nonna@gmail.com */

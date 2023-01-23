@@ -1,6 +1,7 @@
 .DS_Store
 node_modules
-/dist
+/energoterapya_programma_
+/energoterapya_programma
 
 
 # local env files
